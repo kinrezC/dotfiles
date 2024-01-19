@@ -27,7 +27,6 @@ alias ls 'ls --color=none'
 
 set -U fish_user_paths /usr/local/sbin /usr/local/bin /usr/bin /bin /home/matt/.cargo/bin /opt/rocm-4.0.0/bin /opt/rocm-4.0.0/rocprofiler/bin /opt/rocm-4.0.0/opencl/bin ~/.yarn/bin ~/.npm-global/bin ~/.linuxbrew/bin /usr/local/bin/go /home/matt/.pyenv/bin
 set NIX_LINK $HOME/.nix-profile/etc/profile.d/nix.sh
-set OPENAI_API_KEY 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
 nvm use 20.0.0
 
 if status --is-interactive
